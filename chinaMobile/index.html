@@ -5,10 +5,10 @@
     <title>中国移动官方网站</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet icon" href="img/logo.ico">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
     <script src="js/index.js"></script>
 </head>
 <body>
-    <!--头部开始-->
     <header>
         <div class="header-box">
             <div class="header-box-left">
@@ -19,8 +19,12 @@
             </div>
             <div class="header-box-right">
                 <a href="">个人中心</a>
-                <div class="a2">
-                    <a href="">中国移动客户端</a>
+                <div class="sjyyt">
+                    <a href="javascript:(0);">中国移动客户端</a>
+                    <div class="sjyyt_box">
+                        <img src="img/QR.png" alt="">
+                        <p>扫一扫，随时查话费！</p>
+                    </div>
                 </div>
                 <a href="">积分商城</a>
                 <a href="">关于中国移动</a>
@@ -30,12 +34,42 @@
             </div>
         </div>
     </header>
-    <!--头部结束 -->
+
+    <div class="thinks">
+        <a href="" class="th-picturn">
+            <img src="img/thinks.jpg" alt="">
+        </a>
+        <img class="close-pic" src="img/closeBTN.png" alt="">
+    </div>
     <!--搜索框开始-->
     <nav>
         <div class="nav-box">
             <a href="" class="nav-left-img"></a>
-            <div class="nav-left-city">太原</div>
+            <div class="nav-left-city-main">
+                <div class="nav-left-city">太原</div>
+                <div class="city-menu">
+                    <div class="city-most">
+                        <span>山西</span>
+                        <a href="" class="to-more-city">[返回全部省份]</a>
+                    </div>
+                    <div class="city-more">
+                        <ul>
+                            <li>太原</li>
+                            <li>朔州</li>
+                            <li>忻州</li>
+                            <li>大同</li>
+                            <li>阳泉</li>
+                            <li>晋中</li>
+                            <li>长治</li>
+                            <li>晋城</li>
+                            <li>临汾</li>
+                            <li>吕梁</li>
+                            <li>运城</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
             <div class="nav-right">
                 <div class="nav-right-input">
                     <input type="text" placeholder="流量">
@@ -79,20 +113,7 @@
     <!--banner开始-->
     <div class="banner-box">
         <div class="banner">
-            <div class="lunbo-box">
-                <ul>
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
+
             <div class="banner-left">
                 <ul>
                     <li>
@@ -140,9 +161,34 @@
                 </ul>
             </div>
             <div class="banner-center">
-                <a href="">
-                    <img src="img/b1.png" alt="">
-                </a>
+                <div class="banner-pic">
+                    <a href="" class="onfirst"><img src="img/b1.png" alt=""></a>
+                    <a href=""><img src="img/ban2.jpg" alt=""></a>
+                    <a href=""><img src="img/ban3.jpg" alt=""></a>
+                    <a href=""><img src="img/ban4.jpg" alt=""></a>
+                    <a href=""><img src="img/ban5.jpg" alt=""></a>
+                    <a href=""><img src="img/ban6.jpg" alt=""></a>
+                    <a href=""><img src="img/ban7.jpg" alt=""></a>
+                    <a href=""><img src="img/ban8.jpg" alt=""></a>
+                    <a href=""><img src="img/ban3.jpg" alt=""></a>
+                    <a href=""><img src="img/ban9.jpg" alt=""></a>
+                </div>
+                <div class="lunbo-box">
+                    <ul>
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="icon-zuoyoujiantou-copy-copy-copy-copy-copy jiantoubanner11"></div>
+                <div class="icon-goleft jiantoubanner12"></div>
             </div>
             <div class="banner-right">
                 <div class="icons">
@@ -224,9 +270,16 @@
                 <div class="yhcon">
                     <div class="indexbox">
                         <a href="">
-                            <h3>4G流量加油包</h3>
-                            <p>实惠不加价</p>
-                            <img src="img/tj1.png" alt="">
+                            <h3>4G飞享套餐</h3>
+                            <p>精心搭配 选择更方便</p>
+                            <img src="img/youhuiqu2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="indexbox">
+                        <a href="">
+                            <h3>话费充值9.98折</h3>
+                            <p>周三充值更优惠</p>
+                            <img src="img/youhuiqu4.png" alt="">
                         </a>
                     </div>
                     <div class="indexbox">
@@ -237,17 +290,87 @@
                         </a>
                     </div>
                     <div class="indexbox">
-                    <a href="">
-                        <h3>4G套餐</h3>
-                        <p>加速加量不加价</p>
-                        <img src="img/tj3.png" alt="">
-                    </a>
-                </div>
-                    <div class="indexbox active">
                         <a href="">
-                            <h3>足不出户办宽带</h3>
-                            <p>畅快网络 资费更低</p>
-                            <img src="img/tj4png.png" alt="">
+                            <h3>4G套餐</h3>
+                            <p>加速加量不加价</p>
+                            <img src="img/tj3.png" alt="">
+                        </a>
+                    </div>
+                        <div class="indexbox">
+                            <a href="">
+                                <h3>网上选号</h3>
+                                <p>海量号码任你选</p>
+                                <img src="img/youhuiqu1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="indexbox">
+                            <a href="">
+                                <h3>合约购机</h3>
+                                <p>特价天天享 购机最划算</p>
+                                <img src="img/tj2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="indexbox">
+                            <a href="">
+                                <h3>4G套餐</h3>
+                                <p>加速加量不加价</p>
+                                <img src="img/tj3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="indexbox">
+                            <a href="">
+                                <h3>4G飞享套餐</h3>
+                                <p>精心搭配 选择更方便</p>
+                                <img src="img/youhuiqu2.png" alt="">
+                            </a>
+                        </div>
+                    <div class="indexbox">
+                        <a href="">
+                            <h3>话费充值9.98折</h3>
+                            <p>周三充值更优惠</p>
+                            <img src="img/youhuiqu4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="indexbox">
+                        <a href="">
+                            <h3>合约购机</h3>
+                            <p>特价天天享 购机最划算</p>
+                            <img src="img/tj2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="indexbox">
+                        <a href="">
+                            <h3>4G套餐</h3>
+                            <p>加速加量不加价</p>
+                            <img src="img/tj3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="indexbox">
+                        <a href="">
+                            <h3>网上选号</h3>
+                            <p>海量号码任你选</p>
+                            <img src="img/youhuiqu1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="indexbox">
+                        <a href="">
+                            <h3>合约购机</h3>
+                            <p>特价天天享 购机最划算</p>
+                            <img src="img/tj2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="indexbox">
+                        <a href="">
+                            <h3>4G套餐</h3>
+                            <p>加速加量不加价</p>
+                            <img src="img/tj3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="indexbox">
+                        <a href="">
+                            <h3>4G飞享套餐</h3>
+                            <p>精心搭配 选择更方便</p>
+                            <img src="img/youhuiqu2.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -1083,23 +1206,23 @@
     <div class="menu">
         <ul>
             <li>
-                <em>1F</em>
-                <span class="active">享优惠</span>
+                1F
+                <span>享优惠</span>
             </li>
             <li>
-               <em>2F</em>
+                2F
                 <span>业务推荐</span>
             </li>
             <li>
-                <em>3F</em>
+                3F
                 <span>手机专区</span>
             </li>
             <li>
-                <em>4F</em>
+                4F
                 <span>智能硬件</span>
             </li>
             <li>
-                <em>5F</em>
+                5F
                 <span>咪咕娱乐</span>
             </li>
 
