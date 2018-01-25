@@ -6,1249 +6,2396 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet icon" href="img/logo.ico">
     <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="js/jquery-3.2.1.js"></script>
     <script src="js/index.js"></script>
 </head>
 <body>
-    <header>
-        <div class="header-box">
-            <div class="header-box-left">
-                <span>欢迎来到中国移动网站</span>
-                <div class="login">
-                    <a href="">请登录</a>
-                </div>
-            </div>
-            <div class="header-box-right">
-                <a href="">个人中心</a>
-                <div class="sjyyt">
-                    <a href="javascript:(0);">中国移动客户端</a>
-                    <div class="sjyyt_box">
-                        <img src="img/QR.png" alt="">
-                        <p>扫一扫，随时查话费！</p>
-                    </div>
-                </div>
-                <a href="">积分商城</a>
-                <a href="">关于中国移动</a>
-                <a href="">联系我们</a>
-                <a href="">政企客户</a>
-                <a href="">ENGLISH</a>
+<header>
+    <div class="header-box">
+        <div class="header-box-left">
+            <span>欢迎来到中国移动网站</span>
+            <div class="login">
+                <a href="">请登录</a>
             </div>
         </div>
-    </header>
-
-    <div class="thinks">
-        <a href="" class="th-picturn">
-            <img src="img/thinks.jpg" alt="">
-        </a>
-        <img class="close-pic" src="img/closeBTN.png" alt="">
+        <div class="header-box-right">
+            <a href="">个人中心</a>
+            <div class="sjyyt">
+                <a href="javascript:(0);">中国移动客户端</a>
+                <div class="sjyyt_box">
+                    <img src="img/QR.png" alt="">
+                    <p>扫一扫，随时查话费！</p>
+                </div>
+            </div>
+            <a href="">积分商城</a>
+            <a href="">关于中国移动</a>
+            <a href="">联系我们</a>
+            <a href="">政企客户</a>
+            <a href="">ENGLISH</a>
+        </div>
     </div>
-    <!--搜索框开始-->
-    <nav>
-        <div class="nav-box">
-            <a href="" class="nav-left-img"></a>
-            <div class="nav-left-city-main">
-                <div class="nav-left-city">太原</div>
-                <div class="city-menu">
-                    <div class="city-most">
-                        <span>山西</span>
-                        <a href="" class="to-more-city">[返回全部省份]</a>
-                    </div>
-                    <div class="city-more">
-                        <ul>
-                            <li>太原</li>
-                            <li>朔州</li>
-                            <li>忻州</li>
-                            <li>大同</li>
-                            <li>阳泉</li>
-                            <li>晋中</li>
-                            <li>长治</li>
-                            <li>晋城</li>
-                            <li>临汾</li>
-                            <li>吕梁</li>
-                            <li>运城</li>
-                        </ul>
-                    </div>
-                </div>
+</header>
+<!--导航隐藏-->
+<div class="head2">
+    <div class="head-1200">
+        <a href="">
+            <img src="img/toubu.png" alt="">
+        </a>
+        <ul class="nav">
+            <li>
+                <a href="" class="active">首页</a>
+            </li>
+            <li>
+                <a href="">移动商城</a>
+            </li>
+            <li>
+                <a href="">网上营业厅</a>
+            </li>
+            <li>
+                <a href="">我的移动</a>
+            </li>
+            <li>
+                <a href="">服务中心</a>
+            </li>
+        </ul>
+        <div class="head2_search">
+            <div class="input">
+                <input type="text" class="sousuo" value="流量">
+                <!--<input type="submit" class="tijiao" value="搜索"/>-->
             </div>
-
-            <div class="nav-right">
-                <div class="nav-right-input">
-                    <input type="text" placeholder="流量">
+        </div>
+    </div>
+</div>
+<div class="thinks">
+    <a href="" class="th-picturn">
+        <img src="img/thinks.jpg" alt="">
+    </a>
+    <img class="close-pic" src="img/closeBTN.png" alt="">
+</div>
+<!--搜索框开始-->
+<nav>
+    <div class="nav-box">
+        <a href="" class="nav-left-img"></a>
+        <div class="nav-left-city-main">
+            <div class="nav-left-city">太原</div>
+            <div class="city-menu">
+                <div class="city-most">
+                    <span>山西</span>
+                    <a href="" class="to-more-city">[返回全部省份]</a>
                 </div>
-                <div class="hot">
-                    <a href="">1.5元1个G</a>
-                    <a href="">选号入网</a>
-                    <a href="">通话记录查询</a>
-                    <a href="">宽带</a>
-                    <a href="">家庭网</a>
-                    <a href="">电子发票</a>
+                <div class="city-more">
+                    <ul>
+                        <li>太原</li>
+                        <li>朔州</li>
+                        <li>忻州</li>
+                        <li>大同</li>
+                        <li>阳泉</li>
+                        <li>晋中</li>
+                        <li>长治</li>
+                        <li>晋城</li>
+                        <li>临汾</li>
+                        <li>吕梁</li>
+                        <li>运城</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </nav>
-    <!--搜索框结束-->
-    <!--导航开始-->
-    <div class="nav-head">
-        <div class="nav-head-box">
-            <a href="" class="nav-head-tit">全部产品服务</a>
-            <ul class="nav-tit-box">
+
+        <div class="nav-right">
+            <div class="nav-right-input">
+                <input type="text" placeholder="流量">
+            </div>
+            <div class="hot">
+                <a href="">1.5元1个G</a>
+                <a href="">选号入网</a>
+                <a href="">通话记录查询</a>
+                <a href="">宽带</a>
+                <a href="">家庭网</a>
+                <a href="">电子发票</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--搜索框结束-->
+<!--导航开始-->
+<div class="nav-head">
+    <div class="nav-head-box">
+        <a href="" class="nav-head-tit">全部产品服务</a>
+        <ul class="nav-tit-box">
+            <li>
+                <a href="" class="navtop_1">首页</a>
+            </li>
+            <li>
+                <a href="">移动商城</a>
+            </li>
+            <li>
+                <a href="">网上营业厅</a>
+            </li>
+            <li>
+                <a href="">我的移动</a>
+            </li>
+            <li>
+                <a href="">服务中心</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--导航结束-->
+<!--banner开始-->
+<div class="banner-box">
+    <div class="banner">
+
+        <div class="banner-left">
+            <ul>
                 <li>
-                    <a href="" class="navtop_1">首页</a>
+                    <a href="" class="one">
+                        <img src="img/one.png" alt="">
+                        &nbsp;&nbsp;办业务
+                    </a>
                 </li>
                 <li>
-                    <a href="">移动商城</a>
+                    <a href="" class="two">
+                        <img src="img/two.png" alt="">
+                        &nbsp;&nbsp;买手机
+                    </a>
                 </li>
                 <li>
-                    <a href="">网上营业厅</a>
+                    <a href="" class="three">
+                        <img src="img/three.png" alt="">
+                        &nbsp;&nbsp;套餐/靓号
+                    </a>
                 </li>
                 <li>
-                    <a href="">我的移动</a>
+                    <a href="" class="four">
+                        <img src="img/four.png" alt="">
+                        &nbsp;&nbsp;家庭业务
+                    </a>
                 </li>
                 <li>
-                    <a href="">服务中心</a>
+                    <a href="" class="five">
+                        <img src="img/five.png" alt="">
+                        &nbsp;&nbsp;智能硬件
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="six">
+                        <img src="img/six.png" alt="">
+                        &nbsp;&nbsp;查询服务
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="seven">
+                        <img src="img/seven.png" alt="">
+                        &nbsp;&nbsp;特色专区
+                    </a>
+                </li>
+            </ul>
+            <div class="navbox" style="display: block;">
+                <div class="navboxLeft">
+                    <dl>
+                        <dt>
+                            <a href="">主套餐</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G飞享套餐</a>
+                            <a href="">4G流量卡</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">流量业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">流量可选包</a>
+                            <a href="">小时流量包</a>
+                            <a href="">夜间流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">家庭业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">家庭网</a>
+                            <a href="">融合资费</a>
+                            <a href="">宜居通</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">国际/港澳台</a>
+                        </dt>
+                        <dd>
+                            <a href="">开通漫游功能</a>
+                            <a href="">一带一路多国流量</a>
+                            <a href="">欧洲多国流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">基础服务</a>
+                        </dt>
+                        <dd>
+                            <a href="">和多号</a>
+                            <a href="">报停复机</a>
+                            <a href="" style="color:#494949;border-right: none;">密码修改</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">生活&amp;娱乐</a>
+                        </dt>
+                        <dd>
+                            <a href="">咪咕圈圈</a>
+                            <a href="">咪咕音乐</a>
+                            <a href="">咪咕阅读</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">优惠活动</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G+高清语音</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="navboxRight">
+                    <a href="">
+                        <img src="img/aside-img.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <!--办业务结束-->
+            <div class="navbox navboxyy" style="display: none;">
+                <div class="navboxLeft">
+                    <dl>
+                        <dt>
+                            <a href="">热点关注</a>
+                        </dt>
+                        <dd>
+                            <a href="">魅蓝A5</a>
+                            <a href="">iPoneX</a>
+                            <a href="">iPone7</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">经典品牌</a>
+                        </dt>
+                        <dd>
+                            <a href="">摩托罗拉</a>
+                            <a href="">海尔</a>
+                            <a href="">荣耀</a>
+                            <a href="">联想</a>
+                            <a href="">美图</a>
+                            <a href="">酷派</a>
+                            <a href="">CMCC</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">家庭业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">家庭网</a>
+                            <a href="">融合资费</a>
+                            <a href="">宜居通</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">国际/港澳台</a>
+                        </dt>
+                        <dd>
+                            <a href="">开通漫游功能</a>
+                            <a href="">一带一路多国流量</a>
+                            <a href="">欧洲多国流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">基础服务</a>
+                        </dt>
+                        <dd>
+                            <a href="">和多号</a>
+                            <a href="">报停复机</a>
+                            <a href="" style="color:#494949;border-right: none;">密码修改</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">生活&amp;娱乐</a>
+                        </dt>
+                        <dd>
+                            <a href="">咪咕圈圈</a>
+                            <a href="">咪咕音乐</a>
+                            <a href="">咪咕阅读</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">优惠活动</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G+高清语音</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="navbox navboxyy" style="display: none;">
+                <div class="navboxLeft">
+                    <dl>
+                        <dt>
+                            <a href="">主套餐</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G飞享套餐</a>
+                            <a href="">4G流量卡</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">流量业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">流量可选包</a>
+                            <a href="">小时流量包</a>
+                            <a href="">夜间流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">家庭业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">家庭网</a>
+                            <a href="">融合资费</a>
+                            <a href="">宜居通</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">国际/港澳台</a>
+                        </dt>
+                        <dd>
+                            <a href="">开通漫游功能</a>
+                            <a href="">一带一路多国流量</a>
+                            <a href="">欧洲多国流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">基础服务</a>
+                        </dt>
+                        <dd>
+                            <a href="">和多号</a>
+                            <a href="">报停复机</a>
+                            <a href="" style="color:#494949;border-right: none;">密码修改</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">生活&amp;娱乐</a>
+                        </dt>
+                        <dd>
+                            <a href="">咪咕圈圈</a>
+                            <a href="">咪咕音乐</a>
+                            <a href="">咪咕阅读</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">优惠活动</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G+高清语音</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="navbox navboxyy" style="display: none;">
+                <div class="navboxLeft">
+                    <dl>
+                        <dt>
+                            <a href="">主套餐</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G飞享套餐</a>
+                            <a href="">4G流量卡</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">流量业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">流量可选包</a>
+                            <a href="">小时流量包</a>
+                            <a href="">夜间流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">家庭业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">家庭网</a>
+                            <a href="">融合资费</a>
+                            <a href="">宜居通</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">国际/港澳台</a>
+                        </dt>
+                        <dd>
+                            <a href="">开通漫游功能</a>
+                            <a href="">一带一路多国流量</a>
+                            <a href="">欧洲多国流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">基础服务</a>
+                        </dt>
+                        <dd>
+                            <a href="">和多号</a>
+                            <a href="">报停复机</a>
+                            <a href="" style="color:#494949;border-right: none;">密码修改</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">生活&amp;娱乐</a>
+                        </dt>
+                        <dd>
+                            <a href="">咪咕圈圈</a>
+                            <a href="">咪咕音乐</a>
+                            <a href="">咪咕阅读</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">优惠活动</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G+高清语音</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="navbox" style="display: none;">
+                <div class="navboxLeft">
+                    <dl>
+                        <dt>
+                            <a href="">主套餐</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G飞享套餐</a>
+                            <a href="">4G流量卡</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">流量业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">流量可选包</a>
+                            <a href="">小时流量包</a>
+                            <a href="">夜间流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">家庭业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">家庭网</a>
+                            <a href="">融合资费</a>
+                            <a href="">宜居通</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">国际/港澳台</a>
+                        </dt>
+                        <dd>
+                            <a href="">开通漫游功能</a>
+                            <a href="">一带一路多国流量</a>
+                            <a href="">欧洲多国流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">基础服务</a>
+                        </dt>
+                        <dd>
+                            <a href="">和多号</a>
+                            <a href="">报停复机</a>
+                            <a href="" style="color:#494949;border-right: none;">密码修改</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">生活&amp;娱乐</a>
+                        </dt>
+                        <dd>
+                            <a href="">咪咕圈圈</a>
+                            <a href="">咪咕音乐</a>
+                            <a href="">咪咕阅读</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">优惠活动</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G+高清语音</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="navboxRight">
+                    <a href="">
+                        <img src="img/aside-img.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="navbox navboxyy" style="display: none;">
+                <div class="navboxLeft">
+                    <dl>
+                        <dt>
+                            <a href="">主套餐</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G飞享套餐</a>
+                            <a href="">4G流量卡</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">流量业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">流量可选包</a>
+                            <a href="">小时流量包</a>
+                            <a href="">夜间流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">家庭业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">家庭网</a>
+                            <a href="">融合资费</a>
+                            <a href="">宜居通</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">国际/港澳台</a>
+                        </dt>
+                        <dd>
+                            <a href="">开通漫游功能</a>
+                            <a href="">一带一路多国流量</a>
+                            <a href="">欧洲多国流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">基础服务</a>
+                        </dt>
+                        <dd>
+                            <a href="">和多号</a>
+                            <a href="">报停复机</a>
+                            <a href="" style="color:#494949;border-right: none;">密码修改</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">生活&amp;娱乐</a>
+                        </dt>
+                        <dd>
+                            <a href="">咪咕圈圈</a>
+                            <a href="">咪咕音乐</a>
+                            <a href="">咪咕阅读</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">优惠活动</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G+高清语音</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="navbox" style="display: none;">
+                <div class="navboxLeft">
+                    <dl>
+                        <dt>
+                            <a href="">主套餐</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G飞享套餐</a>
+                            <a href="">4G流量卡</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">流量业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">流量可选包</a>
+                            <a href="">小时流量包</a>
+                            <a href="">夜间流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">家庭业务</a>
+                        </dt>
+                        <dd>
+                            <a href="">家庭网</a>
+                            <a href="">融合资费</a>
+                            <a href="">宜居通</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">国际/港澳台</a>
+                        </dt>
+                        <dd>
+                            <a href="">开通漫游功能</a>
+                            <a href="">一带一路多国流量</a>
+                            <a href="">欧洲多国流量包</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">基础服务</a>
+                        </dt>
+                        <dd>
+                            <a href="">和多号</a>
+                            <a href="">报停复机</a>
+                            <a href="" style="color:#494949;border-right: none;">密码修改</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">生活&amp;娱乐</a>
+                        </dt>
+                        <dd>
+                            <a href="">咪咕圈圈</a>
+                            <a href="">咪咕音乐</a>
+                            <a href="">咪咕阅读</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">优惠活动</a>
+                        </dt>
+                        <dd>
+                            <a href="">4G+高清语音</a>
+                            <a href="" class="more">更多</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="navboxRight">
+                    <a href="">
+                        <img src="img/banner-left.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="banner-center">
+            <div class="banner-pic">
+                <a href=""><img class="" src="img/b1.png" alt=""></a>
+                <a href=""><img src="img/ban2.jpg" alt="" class="onfirst"></a>
+                <a href=""><img src="img/ban3.jpg" alt="" class=""></a>
+                <a href=""><img src="img/ban4.jpg" alt="" class=""></a>
+                <a href=""><img src="img/ban5.jpg" alt="" class=""></a>
+                <a href=""><img src="img/ban6.jpg" alt="" class=""></a>
+                <a href=""><img src="img/ban7.jpg" alt="" class=""></a>
+                <a href=""><img src="img/ban8.jpg" alt="" class=""></a>
+                <a href=""><img src="img/ban3.jpg" alt="" class=""></a>
+                <a href=""><img src="img/ban9.jpg" alt="" class=""></a>
+            </div>
+            <div class="lunbo-box">
+                <ul>
+                    <li class=""></li>
+                    <li class="active"></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ul>
+            </div>
+            <div class="icon-zuoyoujiantou-copy-copy-copy-copy-copy jiantoubanner11"></div>
+            <div class="icon-goleft jiantoubanner12"></div>
+        </div>
+        <div class="banner-right">
+            <div class="icons">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="img/icon1.gif" alt="">
+                            <p>话费查询</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/icon2gif.gif" alt="">
+                            <p>流量查询</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/icon3.png" alt="">
+                            <p>国际/港澳台</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/icon4.gif" alt="">
+                            <p>积分兑换</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/icon5.gif" alt="">
+                            <p>优惠专区</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/icon6.png" alt="">
+                            <p>业务办理</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="chong">
+                <div class="clearfix">
+                    <a href="">话 费</a>
+                    <a href="">流 量</a>
+                </div>
+                <form action="">
+                    <div class="tagsbox">
+                        <input type="text" placeholder="请输入手机号码">
+                    </div>
+                    <div class="insselect">
+                        <a href="">30元</a>
+                        <a href="">50元</a>
+                        <a href="">100元</a>
+                        <a href="">300元</a>
+                        <a href="">其他</a>
+                    </div>
+                    <div class="botton">
+                        <a href="">立即充值</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--banner结束-->
+<!--推荐开始-->
+<div class="promotion">
+    <div class="promotion-box">
+        <div class="promotion-left">
+            <a href="">
+                <img src="img/tj1.jpg" alt="">
+            </a>
+        </div>
+        <div class="promotion-right">
+            <div class="yhpre"></div>
+            <div class="yhnext"></div>
+            <div class="yhcon" style="transition: all 1s; margin-left: -2178px;">
+                <div class="indexbox">
+                    <a href="">
+                        <h3>4G飞享套餐</h3>
+                        <p>精心搭配 选择更方便</p>
+                        <img src="img/youhuiqu2.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>话费充值9.98折</h3>
+                        <p>周三充值更优惠</p>
+                        <img src="img/youhuiqu4.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>合约购机</h3>
+                        <p>特价天天享 购机最划算</p>
+                        <img src="img/tj2.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>4G套餐</h3>
+                        <p>加速加量不加价</p>
+                        <img src="img/tj3.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>网上选号</h3>
+                        <p>海量号码任你选</p>
+                        <img src="img/youhuiqu1.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>合约购机</h3>
+                        <p>特价天天享 购机最划算</p>
+                        <img src="img/tj2.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>4G套餐</h3>
+                        <p>加速加量不加价</p>
+                        <img src="img/tj3.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>4G飞享套餐</h3>
+                        <p>精心搭配 选择更方便</p>
+                        <img src="img/youhuiqu2.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>话费充值9.98折</h3>
+                        <p>周三充值更优惠</p>
+                        <img src="img/youhuiqu4.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>合约购机</h3>
+                        <p>特价天天享 购机最划算</p>
+                        <img src="img/tj2.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>4G套餐</h3>
+                        <p>加速加量不加价</p>
+                        <img src="img/tj3.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>网上选号</h3>
+                        <p>海量号码任你选</p>
+                        <img src="img/youhuiqu1.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>合约购机</h3>
+                        <p>特价天天享 购机最划算</p>
+                        <img src="img/tj2.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>4G套餐</h3>
+                        <p>加速加量不加价</p>
+                        <img src="img/tj3.png" alt="">
+                    </a>
+                </div>
+                <div class="indexbox">
+                    <a href="">
+                        <h3>4G飞享套餐</h3>
+                        <p>精心搭配 选择更方便</p>
+                        <img src="img/youhuiqu2.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--推荐结束-->
+<!--楼层开始-->
+<section>
+    <!--1F开始-->
+    <div class="section-lou1 floors">
+        <div class="xiangshang">
+            <a href=""><span>1F 享优惠</span></a>
+            <ul>
+                <li>
+                    <a href="">全部</a>
+                </li>
+                <li>
+                    <a href="">选号</a>
+                </li>
+                <li>
+                    <a href="">合约机</a>
+                </li>
+                <li>
+                    <a href="">流量卡</a>
+                </li>
+                <li>
+                    <a href="">流量</a>
                 </li>
             </ul>
         </div>
-    </div>
-    <!--导航结束-->
-    <!--banner开始-->
-    <div class="banner-box">
-        <div class="banner">
-
-            <div class="banner-left">
-                <ul>
-                    <li>
-                        <a href="" class="one">
-                            <img src="img/one.png" alt="">
-                            &nbsp;&nbsp;办业务
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="two">
-                            <img src="img/two.png" alt="">
-                            &nbsp;&nbsp;买手机
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="three">
-                            <img src="img/three.png" alt="">
-                            &nbsp;&nbsp;套餐/靓号
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="four">
-                            <img src="img/four.png" alt="">
-                            &nbsp;&nbsp;家庭业务
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="five">
-                            <img src="img/five.png" alt="">
-                            &nbsp;&nbsp;智能硬件
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="six">
-                            <img src="img/six.png" alt="">
-                            &nbsp;&nbsp;查询服务
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="seven">
-                            <img src="img/seven.png" alt="">
-                            &nbsp;&nbsp;特色专区
-                        </a>
-                    </li>
-                </ul>
+        <div class="sect-lou1-img">
+            <div class="sect-img-left">
+                <div class="box1">
+                    <a href="">
+                        <img src="img/onfloor-pic.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box2">
+                    <a href="">
+                        <h4>充300得400</h4>
+                        <p>感恩移路有你 共创美好生活</p>
+                        <img src="img/s2.png" alt="">
+                    </a>
+                </div>
             </div>
-            <div class="banner-center">
-                <div class="banner-pic">
-                    <a href="" class="onfirst"><img src="img/b1.png" alt=""></a>
-                    <a href=""><img src="img/ban2.jpg" alt=""></a>
-                    <a href=""><img src="img/ban3.jpg" alt=""></a>
-                    <a href=""><img src="img/ban4.jpg" alt=""></a>
-                    <a href=""><img src="img/ban5.jpg" alt=""></a>
-                    <a href=""><img src="img/ban6.jpg" alt=""></a>
-                    <a href=""><img src="img/ban7.jpg" alt=""></a>
-                    <a href=""><img src="img/ban8.jpg" alt=""></a>
-                    <a href=""><img src="img/ban3.jpg" alt=""></a>
-                    <a href=""><img src="img/ban9.jpg" alt=""></a>
+            <div class="sect-img-center">
+                <div class="box3">
+                    <a href="">
+                        <h4>大讲堂开讲啦！</h4>
+                        <p>知名专家为您分享智慧心得</p>
+                        <img src="img/s3.jpg" alt="">
+                    </a>
                 </div>
-                <div class="lunbo-box">
-                    <ul>
-                        <li class="active"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                <div class="box3 box3_end">
+                    <a href="">
+                        <h4>流量日套餐</h4>
+                        <p>随时随办随用，有效期24小时</p>
+                        <img src="img/s4.jpg" alt="">
+                    </a>
                 </div>
-                <div class="icon-zuoyoujiantou-copy-copy-copy-copy-copy jiantoubanner11"></div>
-                <div class="icon-goleft jiantoubanner12"></div>
             </div>
-            <div class="banner-right">
-                <div class="icons">
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src="img/icon1.gif" alt="">
-                                <p>话费查询</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="img/icon2gif.gif" alt="">
-                                <p>流量查询</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="img/icon3.png" alt="">
-                                <p>国际/港澳台</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="img/icon4.gif" alt="">
-                                <p>积分兑换</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="img/icon5.gif" alt="">
-                                <p>优惠专区</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="img/icon6.png" alt="">
-                                <p>业务办理</p>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="sect-img-right">
+                <div class="box4">
+                    <a href="">
+                        <h4>移动4G套餐办理</h4>
+                        <p>超值套餐 随心办</p>
+                        <img src="img/s5.png" alt="">
+                    </a>
                 </div>
-                <div class="chong">
-                    <div class="clearfix">
-                        <a href="">话 费</a>
-                        <a href="">流 量</a>
-                    </div>
-                    <form action="">
-                        <div class="tagsbox">
-                            <input type="text" placeholder="请输入手机号码">
-                        </div>
-                        <div class="insselect">
-                            <a href="">30元</a>
-                            <a href="">50元</a>
-                            <a href="">100元</a>
-                            <a href="">300元</a>
-                            <a href="">其他</a>
-                        </div>
-                        <div class="botton">
-                            <a href="">立即充值</a>
-                        </div>
-                    </form>
+            </div>
+            <div class="sect-img-center sect-img-center1">
+                <div class="box3">
+                    <a href="">
+                        <h4>出境用移动</h4>
+                        <p>4G网络，无限流量，包天任用</p>
+                        <img src="img/s6.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box3 box3_end">
+                    <a href="">
+                        <h4>流量可选包</h4>
+                        <p>流量更划算，放心玩</p>
+                        <img src="img/s7.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <!--banner结束-->
-    <!--推荐开始-->
-    <div class="promotion">
-        <div class="promotion-box">
-            <div class="promotion-left">
-                <a href="">
-                    <img src="img/tj1.jpg" alt="">
-                </a>
+    <!--2F开始-->
+    <div class="section-lou2 floors">
+        <div class="xiangshang">
+            <a href=""><span>2L 业务推荐</span></a>
+            <ul>
+                <li>
+                    <a href="">全部</a>
+                </li>
+                <li>
+                    <a href="">4G套餐</a>
+                </li>
+                <li>
+                    <a href="">流量业务</a>
+                </li>
+                <li>
+                    <a href="">宽带办理</a>
+                </li>
+                <li>
+                    <a href="">国际业务</a>
+                </li>
+                <li>
+                    <a href="">和通信包</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sect-lou1-img">
+            <div class="sect-img-left">
+                <div class="box1">
+                    <a href="">
+                        <img src="img/s9.png" alt="">
+                    </a>
+                </div>
+                <div class="box2 box2-2">
+                    <a href="">
+                        <h4>流量小时套餐</h4>
+                        <p>有效期4小时</p>
+                        <img src="img/s10.png" alt="">
+                    </a>
+                </div>
             </div>
-            <div class="promotion-right">
-                <div class="yhpre"></div>
-                <div class="yhnext"></div>
-                <div class="yhcon">
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>4G飞享套餐</h3>
-                            <p>精心搭配 选择更方便</p>
-                            <img src="img/youhuiqu2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>话费充值9.98折</h3>
-                            <p>周三充值更优惠</p>
-                            <img src="img/youhuiqu4.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>合约购机</h3>
-                            <p>特价天天享 购机最划算</p>
-                            <img src="img/tj2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>4G套餐</h3>
-                            <p>加速加量不加价</p>
-                            <img src="img/tj3.png" alt="">
-                        </a>
-                    </div>
-                        <div class="indexbox">
-                            <a href="">
-                                <h3>网上选号</h3>
-                                <p>海量号码任你选</p>
-                                <img src="img/youhuiqu1.png" alt="">
-                            </a>
-                        </div>
-                        <div class="indexbox">
-                            <a href="">
-                                <h3>合约购机</h3>
-                                <p>特价天天享 购机最划算</p>
-                                <img src="img/tj2.png" alt="">
-                            </a>
-                        </div>
-                        <div class="indexbox">
-                            <a href="">
-                                <h3>4G套餐</h3>
-                                <p>加速加量不加价</p>
-                                <img src="img/tj3.png" alt="">
-                            </a>
-                        </div>
-                        <div class="indexbox">
-                            <a href="">
-                                <h3>4G飞享套餐</h3>
-                                <p>精心搭配 选择更方便</p>
-                                <img src="img/youhuiqu2.png" alt="">
-                            </a>
-                        </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>话费充值9.98折</h3>
-                            <p>周三充值更优惠</p>
-                            <img src="img/youhuiqu4.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>合约购机</h3>
-                            <p>特价天天享 购机最划算</p>
-                            <img src="img/tj2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>4G套餐</h3>
-                            <p>加速加量不加价</p>
-                            <img src="img/tj3.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>网上选号</h3>
-                            <p>海量号码任你选</p>
-                            <img src="img/youhuiqu1.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>合约购机</h3>
-                            <p>特价天天享 购机最划算</p>
-                            <img src="img/tj2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>4G套餐</h3>
-                            <p>加速加量不加价</p>
-                            <img src="img/tj3.png" alt="">
-                        </a>
-                    </div>
-                    <div class="indexbox">
-                        <a href="">
-                            <h3>4G飞享套餐</h3>
-                            <p>精心搭配 选择更方便</p>
-                            <img src="img/youhuiqu2.png" alt="">
-                        </a>
-                    </div>
+            <div class="sect-img-center">
+                <div class="box3">
+                    <a href="">
+                        <h4>流量可选包</h4>
+                        <p>月费不变 流量升级</p>
+                        <img src="img/s11.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box3 box3_end">
+                    <a href="">
+                        <h4>4G闲时流量包</h4>
+                        <p>10元1GB闲时流量包</p>
+                        <img src="img/s12.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="sect-img-center">
+                <div class="box3">
+                    <a href="">
+                        <h4>自动升档包</h4>
+                        <p>流量叠加 超划算</p>
+                        <img src="img/s13.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box3 box3_end">
+                    <a href="">
+                        <h4>4G飞享套餐</h4>
+                        <p>月费低至18元起</p>
+                        <img src="img/s14.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="sect-img-center sect-img-center2">
+                <div class="box3">
+                    <a href="">
+                        <h4>任我用（238元版）</h4>
+                        <p>我的流量够任性</p>
+                        <img src="img/s14.png" alt="">
+                    </a>
+                </div>
+                <div class="box3 box3_end">
+                    <a href="">
+                        <h4>流量日套餐</h4>
+                        <p>有效期24小时</p>
+                        <img src="img/s16.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <!--推荐结束-->
-    <!--楼层开始-->
-    <section>
-        <!--1F开始-->
-        <div class="section-lou1 floors">
-            <!--<h3>-->
-                <!--<ul class="list">-->
-                    <!--<li>-->
-                        <!--<a href="" class="all">全部</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">选号</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">合约机</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">流量卡</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">流量</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</h3>-->
-            <div class="sect-lou1-img">
-                <div class="sect-img-left">
-                    <div class="box1">
-                        <a href="">
-                            <img src="img/s1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box2">
-                        <a href="">
-                            <h4>充300得400</h4>
-                            <p>感恩移路有你 共创美好生活</p>
-                            <img src="img/s2.png" alt="">
-                        </a>
-                    </div>
+    <!--3F开始-->
+    <div class="section-lou3 floors">
+        <div class="xiangshang">
+            <a href=""><span>3L 手机专区</span></a>
+            <ul>
+                <li>
+                    <a href="">全部</a>
+                </li>
+                <li>
+                    <a href="">千元机</a>
+                </li>
+                <li>
+                    <a href="">合约机</a>
+                </li>
+                <li>
+                    <a href="">本省商城</a>
+                </li>
+                <li>
+                    <a href="">买手机</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sect-lou1-img">
+            <div class="sect-img-left">
+                <div class="box1-1">
+                    <a href="">
+                        <h4>红米5A
+                            <br>
+                            轻巧长续航
+                        </h4>
+                        <p>骁龙处理器</p>
+                        <span>599元</span>
+                        <img src="img/s18.jpg" alt="">
+                    </a>
                 </div>
-                <div class="sect-img-center">
-                    <div class="box3">
-                        <a href="">
-                            <h4>大讲堂开讲啦！</h4>
-                            <p>知名专家为您分享智慧心得</p>
-                            <img src="img/s3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3_end">
-                        <a href="">
-                            <h4>流量日套餐</h4>
-                            <p>随时随办随用，有效期24小时</p>
-                            <img src="img/s4.jpg" alt="">
-                        </a>
-                    </div>
+                <div class="box2-2">
+                    <a href="">
+                        <img src="img/s24.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s25.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s26.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s27.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s28.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s29.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s33.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s30jpg.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s31.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/s32.jpg" alt="">
+                    </a>
                 </div>
-                <div class="sect-img-right">
-                   <div class="box4">
-                       <a href="">
-                           <h4>移动4G套餐办理</h4>
-                           <p>超值套餐 随心办</p>
-                           <img src="img/s5.png" alt="">
-                       </a>
-                   </div>
+            </div>
+            <div class="sect-img-center">
+                <div class="box3">
+                    <a href="">
+                        <h4>360 C5</h4>
+                        <p>圆润有型 双卡双待</p>
+                        <span>329元</span>
+                        <img src="img/s17jpg.jpg" alt="">
+                    </a>
                 </div>
-                <div class="sect-img-center sect-img-center1">
-                    <div class="box3">
-                        <a href="">
-                            <h4>出境用移动</h4>
-                            <p>4G网络，无限流量，包天任用</p>
-                            <img src="img/s6.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3_end">
-                        <a href="">
-                            <h4>流量可选包</h4>
-                            <p>流量更划算，放心玩</p>
-                            <img src="img/s7.jpg" alt="">
-                        </a>
-                    </div>
+                <div class="box3 box3_end">
+                    <a href="">
+                        <h4>红米Note4X</h4>
+                        <p>金属机身 大电池长续航</p>
+                        <span>1079元</span>
+                        <img src="img/s19.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="sect-img-center">
+                <div class="box3">
+                    <a href="">
+                        <h4>华为nova2</h4>
+                        <p>4GB+64GB 4G智能手机</p>
+                        <span>2274元</span>
+                        <img src="img/s20.png" alt="">
+                    </a>
+                </div>
+                <div class="box3 box3_end">
+                    <a href="">
+                        <h4>中国移动A3s</h4>
+                        <p>指纹解锁，前后拍照都很清晰</p>
+                        <span>338元</span>
+                        <img src="img/s21.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="sect-img-center sect-img-center2">
+                <div class="box3">
+                    <a href="">
+                        <h4>荣耀V9 play</h4>
+                        <p>极简设计/搭配强劲八核芯片/1</p>
+                        <span>899元</span>
+                        <img src="img/s22.png" alt="">
+                    </a>
+                </div>
+                <div class="box3 box3_end">
+                    <a href="">
+                        <h4>荣耀畅玩6A 标配版</h4>
+                        <p>金属机身/八核芯片/2GB内存</p>
+                        <span>699元</span>
+                        <img src="img/s23.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
-        <!--2F开始-->
-        <div class="section-lou2 floors">
-            <!--<h3>-->
-                <!--<ul class="list">-->
-                    <!--<li>-->
-                        <!--<a href="" class="all">全部</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">宽带预约</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">任我用</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">流量业务</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">WLAN套餐</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">自助卡激活</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</h3>-->
-            <div class="sect-lou1-img">
-                <div class="sect-img-left">
-                    <div class="box1">
-                        <a href="">
-                            <img src="img/s9.png" alt="">
-                        </a>
-                    </div>
-                    <div class="box2 box2-2">
-                        <a href="">
-                            <h4>流量小时套餐</h4>
-                            <p>有效期4小时</p>
-                            <img src="img/s10.png" alt="">
-                        </a>
-                    </div>
+    </div>
+    <!--4F开始-->
+    <div class="section-lou4 floors">
+        <div class="xiangshang">
+            <a href=""><span>4L 智能硬件</span></a>
+            <ul>
+                <li>
+                    <a href="">全部</a>
+                </li>
+                <li>
+                    <a href="">智联品质生活</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sect-lou4-box">
+            <div class="sect-lou4-left">
+                <div class="box5">
+                    <a href="">
+                        <h4>LEM柠檬智能手环</h4>
+                        <p>测心率血压运动手表</p>
+                        <span>99元</span>
+                        <img src="img/s34png.png" alt="">
+                    </a>
                 </div>
-                <div class="sect-img-center">
-                    <div class="box3">
-                        <a href="">
-                            <h4>流量可选包</h4>
-                            <p>月费不变 流量升级</p>
-                            <img src="img/s11.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3_end">
-                        <a href="">
-                            <h4>4G闲时流量包</h4>
-                            <p>10元1GB闲时流量包</p>
-                            <img src="img/s12.jpg" alt="">
-                        </a>
-                    </div>
+                <div class="box5">
+                    <a href="">
+                        <p>和目C13C家用摄像头</p>
+                        <span>168元</span>
+                        <img src="img/s35.png" alt="">
+                    </a>
                 </div>
-                <div class="sect-img-center">
-                    <div class="box3">
-                        <a href="">
-                            <h4>自动升档包</h4>
-                            <p>流量叠加 超划算</p>
-                            <img src="img/s13.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3_end">
-                        <a href="">
-                            <h4>4G飞享套餐</h4>
-                            <p>月费低至18元起</p>
-                            <img src="img/s14.jpg" alt="">
-                        </a>
-                    </div>
+                <div class="box5">
+                    <a href="">
+                        <p>和路由家用路由器</p>
+                        <span>109元</span>
+                        <img src="img/s36.png" alt="">
+                    </a>
                 </div>
-                <div class="sect-img-center sect-img-center2">
-                    <div class="box3">
-                        <a href="">
-                            <h4>任我用（238元版）</h4>
-                            <p>我的流量够任性</p>
-                            <img src="img/s14.png" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3_end">
-                        <a href="">
-                            <h4>流量日套餐</h4>
-                            <p>有效期24小时</p>
-                            <img src="img/s16.jpg" alt="">
-                        </a>
-                    </div>
+                <div class="box5 box5-end">
+                    <a href="">
+                        <p>乐心智能手环mambo2</p>
+                        <span>169元</span>
+                        <img src="img/s37.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="sect-lou4-center">
+                <div class="box3">
+                    <a href="">
+                        <h4>和目C15智能摄像头</h4>
+                        <p>红外夜视双向语音云端存储</p>
+                        <span>259元</span>
+                        <img src="img/s38.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box3 box3-end">
+                    <a href="">
+                        <h4>和目中继器HN25</h4>
+                        <p>无线放大兼容性强APP智能管理</p>
+                        <span>75元</span>
+                        <img src="img/s39.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="sect-lou4-right">
+                <div class="box4">
+                    <a href="">
+                        <h4>有品智能体脂秤</h4>
+                        <p>身体数据监控手机APP掌控</p>
+                        <span>89元</span>
+                        <img src="img/s40.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="sect-lou4-center">
+                <div class="box3">
+                    <a href="">
+                        <h4>咪咕康佳4K电视</h4>
+                        <p>送900元咪咕超级会员年卡</p>
+                        <span>3999元</span>
+                        <img src="img/s41jpg.jpg" alt="">
+                    </a>
+                </div>
+                <div class="box3 box3-end">
+                    <a href="">
+                        <h4>盾牌商务蓝牙耳机</h4>
+                        <p>接听来电 结束通话 听音乐智能</p>
+                        <span>79元</span>
+                        <img src="img/s42.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
-        <!--3F开始-->
-        <div class="section-lou3 floors">
-            <!--<h3>-->
-                <!--<ul class="list">-->
-                    <!--<li>-->
-                        <!--<a href="" class="all">全部</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">千元机</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">合约机</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">本省商城</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">买手机</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</h3>-->
-            <div class="sect-lou1-img">
-                <div class="sect-img-left">
-                    <div class="box1-1">
-                        <a href="">
-                            <h4>红米5A
-                                <br>
-                                轻巧长续航
-                            </h4>
-                            <p>骁龙处理器</p>
-                            <span>599元</span>
-                            <img src="img/s18.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box2-2">
-                        <a href="">
-                            <img src="img/s24.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s25.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s26.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s27.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s28.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s29.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s33.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s30jpg.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s31.jpg" alt="">
-                        </a>
-                        <a href="">
-                            <img src="img/s32.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="sect-img-center">
-                    <div class="box3">
-                        <a href="">
-                            <h4>360 C5</h4>
-                            <p>圆润有型 双卡双待</p>
-                            <span>329元</span>
-                            <img src="img/s17jpg.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3_end">
-                        <a href="">
-                            <h4>红米Note4X</h4>
-                            <p>金属机身 大电池长续航</p>
-                            <span>1079元</span>
-                            <img src="img/s19.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="sect-img-center">
-                    <div class="box3">
-                        <a href="">
-                            <h4>华为nova2</h4>
-                            <p>4GB+64GB 4G智能手机</p>
-                            <span>2274元</span>
-                            <img src="img/s20.png" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3_end">
-                        <a href="">
-                            <h4>中国移动A3s</h4>
-                            <p>指纹解锁，前后拍照都很清晰</p>
-                            <span>338元</span>
-                            <img src="img/s21.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="sect-img-center sect-img-center2">
-                    <div class="box3">
-                        <a href="">
-                            <h4>荣耀V9 play</h4>
-                            <p>极简设计/搭配强劲八核芯片/1</p>
-                            <span>899元</span>
-                            <img src="img/s22.png" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3_end">
-                        <a href="">
-                            <h4>荣耀畅玩6A 标配版</h4>
-                            <p>金属机身/八核芯片/2GB内存</p>
-                            <span>699元</span>
-                            <img src="img/s23.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
+    </div>
+    <!--5F开始-->
+    <div class="section-lou5 floors">
+        <div class="xiangshang">
+            <a href=""><span>5L 咪咕娱乐</span></a>
+            <ul>
+                <li>
+                    <a href="">全部</a>
+                </li>
+                <li>
+                    <a href="">王者荣耀</a>
+                </li>
+                <li>
+                    <a href="">拉贝日记</a>
+                </li>
+                <li>
+                    <a href="">一生所爱</a>
+                </li>
+            </ul>
         </div>
-        <!--4F开始-->
-        <div class="section-lou4 floors">
-            <!--<h3>-->
-                <!--<ul class="list">-->
-                    <!--<li>-->
-                        <!--<a href="" class="all">全部</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">智联品质生活</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</h3>-->
-            <div class="sect-lou4-box">
-                <div class="sect-lou4-left">
-                    <div class="box5">
-                        <a href="">
-                            <h4>LEM柠檬智能手环</h4>
-                            <p>测心率血压运动手表</p>
-                            <span>99元</span>
-                            <img src="img/s34png.png" alt="">
-                        </a>
-                    </div>
-                    <div class="box5">
-                        <a href="">
-                            <p>和目C13C家用摄像头</p>
-                            <span>168元</span>
-                            <img src="img/s35.png" alt="">
-                        </a>
-                    </div>
-                    <div class="box5">
-                        <a href="">
-                            <p>和路由家用路由器</p>
-                            <span>109元</span>
-                            <img src="img/s36.png" alt="">
-                        </a>
-                    </div>
-                    <div class="box5 box5-end">
-                        <a href="">
-                            <p>乐心智能手环mambo2</p>
-                            <span>169元</span>
-                            <img src="img/s37.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="sect-lou4-center">
-                    <div class="box3">
-                        <a href="">
-                            <h4>和目C15智能摄像头</h4>
-                            <p>红外夜视双向语音云端存储</p>
-                            <span>259元</span>
-                            <img src="img/s38.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3-end">
-                        <a href="">
-                            <h4>和目中继器HN25</h4>
-                            <p>无线放大兼容性强APP智能管理</p>
-                            <span>75元</span>
-                            <img src="img/s39.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="sect-lou4-right">
-                    <div class="box4">
-                        <a href="">
-                            <h4>有品智能体脂秤</h4>
-                            <p>身体数据监控手机APP掌控</p>
-                            <span>89元</span>
-                            <img src="img/s40.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="sect-lou4-center">
-                    <div class="box3">
-                        <a href="">
-                            <h4>咪咕康佳4K电视</h4>
-                            <p>送900元咪咕超级会员年卡</p>
-                            <span>3999元</span>
-                            <img src="img/s41jpg.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="box3 box3-end">
-                        <a href="">
-                            <h4>盾牌商务蓝牙耳机</h4>
-                            <p>接听来电 结束通话 听音乐智能</p>
-                            <span>79元</span>
-                            <img src="img/s42.png" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--5F开始-->
-        <div class="section-lou5 floors">
-            <!--<h3>-->
-                <!--<ul class="list">-->
-                    <!--<li>-->
-                        <!--<a href="" class="all">全部</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">王者荣耀</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href=""> 拉贝日记</a>-->
-                    <!--</li>-->
-                    <!--<li>-->
-                        <!--<a href="">一生所爱</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
-            <!--</h3>-->
-            <div class="sect-lou4-box">
-                <ul class="tabnav">
-                    <li>
-                        <a href="">
-                            <h4>咪咕音乐</h4>
-                        </a>
-                        <a href="">
-                            <p>放肆听 趣玩乐</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <h4>咪咕游戏</h4>
-                        </a>
-                        <a href="">
-                            <p>快乐一触即发</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <h4>咪咕阅读</h4>
-                        </a>
-                        <a href="">
-                            <p>听有趣 阅不同</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <h4>咪咕圈圈</h4>
-                        </a>
-                        <a href="">
-                            <p>次元C站 给你好看	</p>
-                        </a>
-                    </li>
-                </ul>
-                <div class="tabbox">
-                    <div class="tabbox_inner">
-                        <h4 class="clearfix">
-                            <span class="lf">新歌打榜</span>
-                            <span class="rg">
-                                <em>1/2</em>
+        <div class="sect-lou4-box">
+            <ul class="tabnav">
+                <li class="">
+                    <a href="">
+                        <h4>咪咕音乐</h4>
+                    </a>
+                    <a href="">
+                        <p>放肆听 趣玩乐</p>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="">
+                        <h4>咪咕游戏</h4>
+                    </a>
+                    <a href="">
+                        <p>快乐一触即发</p>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="">
+                        <h4>咪咕阅读</h4>
+                    </a>
+                    <a href="">
+                        <p>听有趣 阅不同</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="">
+                        <h4>咪咕圈圈</h4>
+                    </a>
+                    <a href="">
+                        <p>次元C站 给你好看	</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="tabbox">
+                <div class="tabbox_inner">
+                    <h4 class="clearfix">
+                        <span class="lf">新歌打榜</span>
+                        <span class="rg">
+                                <em>2/2</em>
                                 <img src="img/lf.jpg" alt="">
                                 <img src="img/rgjpg.jpg" alt="">
                             </span>
-                        </h4>
-                        <div class="inner_fy">
-                            <dl>
-                                <dt>
-                                    <a href="">
-                                        <img src="img/s43.jpg" alt="">
-                                    </a>
-                                </dt>
-                                <dd>
-                                    <a href="">
-                                        <h5>带你去旅行</h5>
-                                        <p>校长</p>
-                                    </a>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="">
-                                        <img src="img/s44.jpg" alt="">
-                                    </a>
-                                </dt>
-                                <dd>
-                                    <a href="">
-                                        <h5>分别容易相见难</h5>
-                                        <p>郑源</p>
-                                    </a>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="">
-                                        <img src="img/s45.jpg" alt="">
-                                    </a>
-                                </dt>
-                                <dd>
-                                    <a href="">
-                                        <h5>Deserve</h5>
-                                        <p>吴亦凡</p>
-                                    </a>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="">
-                                        <img src="img/s46.jpg" alt="">
-                                    </a>
-                                </dt>
-                                <dd>
-                                    <a href="">
-                                        <h5>浪子心声</h5>
-                                        <p>刘德华</p>
-                                    </a>
-                                </dd>
-                            </dl>
-                            <dl>
-                                <dt>
-                                    <a href="">
-                                        <img src="img/s47.jpg" alt="">
-                                    </a>
-                                </dt>
-                                <dd>
-                                    <a href="">
-                                        <h5>Papillon</h5>
-                                        <p>王嘉尔 </p>
-                                    </a>
-                                </dd>
-                            </dl>
-                        </div>
+                    </h4>
+                    <div class="inner_fy">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s43.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>带你去旅行</h5>
+                                    <p>校长</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s44.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>分别容易相见难</h5>
+                                    <p>郑源</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s45.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>Deserve</h5>
+                                    <p>吴亦凡</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s46.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>浪子心声</h5>
+                                    <p>刘德华</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s47.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>Papillon</h5>
+                                    <p>王嘉尔 </p>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="inner_fy active">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-5.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>带你去旅行</h5>
+                                    <p>校长</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s44.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>分别容易相见难</h5>
+                                    <p>郑源</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s45.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>Deserve</h5>
+                                    <p>吴亦凡</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s46.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>浪子心声</h5>
+                                    <p>刘德华</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/s47.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>Papillon</h5>
+                                    <p>王嘉尔 </p>
+                                </a>
+                            </dd>
+                        </dl>
                     </div>
                 </div>
-                <div class="tabbox_rg">
-                    <div class="smallslide">
-                        <div class="slideBox">
-                            <div class="hd">
-                                <ul>
-                                    <li class="hd-one"></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                            </div>
-                            <div class="bd">
-                                <ul>
-                                    <li>
-                                        <a href="">
-                                            <img src="img/s48.jpg" alt="">
-                                        </a>
-                                    </li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="recomandbox">
-                        <h4 class="clearfix">
-                            <span class="lf">流行乐风向标</span>
-                            <span class="rg">
-                                <em>1/2</em>
+                <div class="tabbox_inner">
+                    <h4 class="clearfix">
+                        <span class="lf">热门游戏</span>
+                        <span class="rg">
+                                <em>2/2</em>
                                 <img src="img/lf.jpg" alt="">
                                 <img src="img/rgjpg.jpg" alt="">
                             </span>
-                        </h4>
-                        <div class="inner_fy2">
-                            <div class="box">
+                    </h4>
+                    <div class="inner_fy active">
+                        <dl>
+                            <dt>
                                 <a href="">
-                                    <img src="img/s49.jpg" alt="">
-                                    <p>
-                                        <a href="">Find You</a>
-                                    </p>
+                                    <img src="img/music-left2-1.jpg" alt="">
                                 </a>
-                            </div>
-                            <div class="box">
+                            </dt>
+                            <dd>
                                 <a href="">
-                                    <img src="img/s50.jpg" alt="">
-                                    <p>
-                                        <a href="">如棋</a>
-                                    </p>
+                                    <h5>奥特曼传奇英雄</h5>
+                                    <p>195MB</p>
                                 </a>
-                            </div>
-                            <div class="box">
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
                                 <a href="">
-                                    <img src="img/s51.jpg" alt="">
-                                    <p>
-                                        <a href="">别</a>
-                                    </p>
+                                    <img src="img/music-left2-2.jpg" alt="">
                                 </a>
-                            </div>
-                            <div class="box">
+                            </dt>
+                            <dd>
                                 <a href="">
-                                    <img src="img/s52.jpg" alt="">
-                                    <p>
-                                        <a href="">咖啡鬼</a>
-                                    </p>
+                                    <h5>永恒纪元</h5>
+                                    <p>150.37MB</p>
                                 </a>
-                            </div>
-                            <div class="box">
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
                                 <a href="">
-                                    <img src="img/s53.jpg" alt="">
-                                    <p>
-                                        <a href="">过客</a>
-                                    </p>
+                                    <img src="img/music-left2-3.jpg" alt="">
                                 </a>
-                            </div>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>机战王</h5>
+                                    <p>85M</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-4.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>捕鱼来了</h5>
+                                    <p>235.75MB</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-5.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>火力前线</h5>
+                                    <p>87.45MB </p>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="inner_fy">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-1.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>奥特曼传奇英雄</h5>
+                                    <p>195MB</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-2.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>永恒纪元</h5>
+                                    <p>150.37MB</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-3.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>机战王</h5>
+                                    <p>85M</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-4.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>捕鱼来了</h5>
+                                    <p>235.75MB</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-5.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>火力前线</h5>
+                                    <p>87.45MB </p>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="tabbox_inner">
+                    <h4 class="clearfix">
+                        <span class="lf">重磅推荐</span>
+                        <span class="rg">
+                                <em>2/2</em>
+                                <img src="img/lf.jpg" alt="">
+                                <img src="img/rgjpg.jpg" alt="">
+                            </span>
+                    </h4>
+                    <div class="inner_fy active">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-read-2-3.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>亡灵颂歌</h5>
+                                    <p>邓恩</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-read-2-6.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>太阳号草船</h5>
+                                    <p>海尔达尔</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-5.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>古堡鬼玺</h5>
+                                    <p>颜豪智</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-6.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>刺客手记</h5>
+                                    <p>忧子痴</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-7.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>狩域</h5>
+                                    <p>王爵德</p>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="inner_fy">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-read-2-3.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>亡灵颂歌</h5>
+                                    <p>邓恩</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-read-2-6.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>太阳号草船</h5>
+                                    <p>海尔达尔</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-5.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>古堡鬼玺</h5>
+                                    <p>颜豪智</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-6.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>刺客手记</h5>
+                                    <p>忧子痴</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-7.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>狩域</h5>
+                                    <p>王爵德</p>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="tabbox_inner active">
+                    <h4 class="clearfix">
+                        <span class="lf">精品动漫</span>
+                        <span class="rg">
+                                <em>2/2</em>
+                                <img src="img/lf.jpg" alt="">
+                                <img src="img/rgjpg.jpg" alt="">
+                            </span>
+                    </h4>
+                    <div class="inner_fy active">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-2.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>侠盗时光</h5>
+                                    <p>科幻·悬疑·都市</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-3.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>裂缝管理者</h5>
+                                    <p>热血</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-6.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>青柠之夏</h5>
+                                    <p>搞笑·校园</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-7.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>无心幻异录</h5>
+                                    <p>冒险·情感·玄幻</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-8.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>九星天辰诀</h5>
+                                    <p>情感</p>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="inner_fy">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left2-5.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>侠盗时光</h5>
+                                    <p>科幻·悬疑·都市</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-3.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>裂缝管理者</h5>
+                                    <p>热血</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-6.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>青柠之夏</h5>
+                                    <p>搞笑·校园</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-7.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>无心幻异录</h5>
+                                    <p>冒险·情感·玄幻</p>
+                                </a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="img/music-left4-8.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <a href="">
+                                    <h5>九星天辰诀</h5>
+                                    <p>情感</p>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="tabbox_rg">
+                <div class="smallslide">
+                    <div class="slideBox">
+                        <div class="hd">
+                            <ul>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class=""></li>
+                                <li class="hd-one"></li>
+                            </ul>
+                        </div>
+                        <div class="bd">
+                            <ul>
+                                <li class="">
+                                    <a href="">
+                                        <img src="img/s48.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href=""><img src="img/footer-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="">
+                                    <a href=""><img src="img/footer-banner2.jpg" alt=""></a>
+                                </li>
+                                <li class="moren">
+                                    <a href=""><img src="img/footer-banner4.jpg" alt=""></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <div class="recomandbox">
+                    <h4 class="clearfix">
+                        <span class="lf">流行乐风向标</span>
+                        <span class="rg">
+                                <em>2/2</em>
+                                <img class="feng-prev" src="img/lf.jpg" alt="">
+                                <img class="feng-next" src="img/rgjpg.jpg" alt="">
+                            </span>
+                    </h4>
+                    <div class="inner_fy2">
+                        <div class="box">
+                            <a href="">
+                                <img src="img/s49.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">Find You</a>
+                        </p>
 
+                        </div>
+                        <div class="box">
+                            <a href="">
+                                <img src="img/s50.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">如棋</a>
+                        </p>
+
+                        </div>
+                        <div class="box">
+                            <a href="">
+                                <img src="img/s51.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">别</a>
+                        </p>
+
+                        </div>
+                        <div class="box">
+                            <a href="">
+                                <img src="img/s52.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">咖啡鬼</a>
+                        </p>
+
+                        </div>
+                        <div class="box">
+                            <a href="">
+                                <img src="img/s53.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">过客</a>
+                        </p>
+
+                        </div>
+                    </div>
+                    <div class="inner_fy2 active">
+                        <div class="box">
+                            <a href="">
+                                <img src="img/inner_fy2-2-1.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">尽头</a>
+                        </p>
+
+                        </div>
+                        <div class="box">
+                            <a href="">
+                                <img src="img/inner_fy2-2-2.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">天上一只猴</a>
+                        </p>
+
+                        </div>
+                        <div class="box">
+                            <a href="">
+                                <img src="img/inner_fy2-2-3.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">回忆总想哭</a>
+                        </p>
+
+                        </div>
+                        <div class="box">
+                            <a href="">
+                                <img src="img/inner_fy2-2-4.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">美人谷</a>
+                        </p>
+
+                        </div>
+                        <div class="box">
+                            <a href="">
+                                <img src="img/inner_fy2-2-5.jpg" alt="">
+                            </a><p><a href="">
+                        </a><a href="">再也遇不到你这样...</a>
+                        </p>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-    <!--楼层结束-->
-    <!--特色专区开始-->
-    <div class="ts-box">
-        <h2>特色专区</h2>
-        <dl class="feature_dl">
-            <dt>
-                <a href="">
-                    <img src="img/t1.jpg" alt="">
-                </a>
-            </dt>
-            <dd>
-                <a href="">
-                    <h4>国际/港澳台漫游专区</h4>
-                    <p>随时随地，沟通不下线</p>
-                </a>
-            </dd>
-        </dl>
-        <dl class="feature_dl">
-            <dt>
-                <a href="">
-                    <img src="img/t2.jpg" alt="">
-                </a>
-            </dt>
-            <dd>
-                <a href="">
-                    <h4>4G专区</h4>
-                    <p>购4G手机、办4G业务</p>
-                </a>
-            </dd>
-        </dl>
-        <dl class="feature_dl">
-            <dt>
-                <a href="">
-                    <img src="img/t3.jpg" alt="">
-                </a>
-            </dt>
-            <dd>
-                <a href="">
-                    <h4>VoLTE专区</h4>
-                    <p>高品质音、视频通话服务</p>
-                </a>
-            </dd>
-        </dl>
-        <dl class="feature_dl">
-            <dt>
-                <a href="">
-                    <img src="img/t4.jpg" alt="">
-                </a>
-            </dt>
-            <dd>
-                <a href="">
-                    <h4>宽带专区</h4>
-                    <p>畅快网络，极速光纤全家共享</p>
-                </a>
-            </dd>
-        </dl>
-    </div>
-    <!--特色专区结束-->
-    <!--公告开始-->
-    <div class="indexgg">
-        <a href="">
-            <span>公告：</span>
-        </a>
-        <ul class="row">
-            <li>
-                <a href="">中国移动发布未来网络和人工智能创新成果</a>
-                <em>2017-12-21</em>
-            </li>
-            <li>
-                <a href="">关于中国移动通信集团山西有限公司2017年度电子渠道分销合伙引入的结果公示</a>
-                <em>2017-11-23</em>
-            </li>
-        </ul>
-        <div class="qhbtn">
-            <a href="" class="left"> < </a>
-            <a href="" class="right"> > </a>
+
         </div>
     </div>
-    <!--公告结束-->
-    <!--国资动态开始-->
-    <div class="indexgg2">
-        <h3 class="clearfix1">
-            <a href="" class="more">查看更多 ></a>
-        </h3>
-        <span class="gz">
+</section>
+<!--楼层结束-->
+<!--特色专区开始-->
+<div class="ts-box">
+    <h2>特色专区</h2>
+    <dl class="feature_dl">
+        <dt>
+            <a href="">
+                <img src="img/t1.jpg" alt="">
+            </a>
+        </dt>
+        <dd>
+            <a href="">
+                <h4>国际/港澳台漫游专区</h4>
+                <p>随时随地，沟通不下线</p>
+            </a>
+        </dd>
+    </dl>
+    <dl class="feature_dl">
+        <dt>
+            <a href="">
+                <img src="img/t2.jpg" alt="">
+            </a>
+        </dt>
+        <dd>
+            <a href="">
+                <h4>4G专区</h4>
+                <p>购4G手机、办4G业务</p>
+            </a>
+        </dd>
+    </dl>
+    <dl class="feature_dl">
+        <dt>
+            <a href="">
+                <img src="img/t3.jpg" alt="">
+            </a>
+        </dt>
+        <dd>
+            <a href="">
+                <h4>VoLTE专区</h4>
+                <p>高品质音、视频通话服务</p>
+            </a>
+        </dd>
+    </dl>
+    <dl class="feature_dl">
+        <dt>
+            <a href="">
+                <img src="img/t4.jpg" alt="">
+            </a>
+        </dt>
+        <dd>
+            <a href="">
+                <h4>宽带专区</h4>
+                <p>畅快网络，极速光纤全家共享</p>
+            </a>
+        </dd>
+    </dl>
+</div>
+<!--特色专区结束-->
+<!--公告开始-->
+<div class="indexgg">
+    <a href="">
+        <span>公告：</span>
+    </a>
+    <ul class="row">
+        <li>
+            <a href="">中国移动发布未来网络和人工智能创新成果</a>
+            <em>2017-12-21</em>
+        </li>
+        <li>
+            <a href="">关于中国移动通信集团山西有限公司2017年度电子渠道分销合伙引入的结果公示</a>
+            <em>2017-11-23</em>
+        </li>
+    </ul>
+    <div class="qhbtn">
+        <a href="" class="left"> &lt; </a>
+        <a href="" class="right"> &gt; </a>
+    </div>
+</div>
+<!--公告结束-->
+<!--国资动态开始-->
+<div class="indexgg2">
+    <h3 class="clearfix1">
+        <a href="" class="more">查看更多 &gt;</a>
+    </h3>
+    <span class="gz">
             <img src="img/gzdt.jpg" alt="">
         </span>
-        <ul class="row">
-            <li>
-                <em>-</em>
-                <a href="">国资委党委召开中央企业学习交流会</a>
-                <span>2017-11-24</span>
-            </li>
-            <li>
-                <em>-</em>
-                <a href="">中央宣讲团成员肖亚庆赴福建宣讲十九大精神</a>
-                <span>2017-11-13</span>
-            </li>
-            <li>
-                <em>-</em>
-                <a href="">国资委党委召开学习贯彻党的十九大精神报告会  郝鹏主持并讲话 肖亚庆作宣讲报告</a>
-                <span>2017-11-07</span>
-            </li>
-            <li>
-                <em>-</em>
-                <a href="">学习时报发表郝鹏署名文章：在“四个伟大”中担当中央企业的责任和使命</a>
-                <span>2017-11-03</span>
-            </li>
-        </ul>
-    </div>
-    <!--国资动态结束-->
-    <!--底部连接区开始-->
-    <div class="bottom">
-        <div class="bottom_list">
-            <h2>
-                <span>服务渠道</span>
-            </h2>
-            <div class="listbox">
-                <a href="">自助终端</a>
-                <a href="">10086热线</a>
-                <a href="">实体营业厅</a>
-                <a href="">短信营业厅</a>
-                <a href="">网上营业厅</a>
-                <a href="">客户端/掌上营业厅</a>
-            </div>
-        </div>
-        <div class="bottom_list">
-            <h2>
-                <span>站点导航</span>
-            </h2>
-            <div class="listbox">
-                <a href="">MM</a>
-                <a href="">飞信</a>
-                <a href="">和包</a>
-                <a href="">咪咕阅读</a>
-                <a href="">139邮箱</a>
-                <a href="">咪咕音乐</a>
-            </div>
-        </div>
-        <div class="bottom_list">
-            <h2>
-                <span>便捷服务</span>
-            </h2>
-            <div class="listbox">
-                <a href="">套餐变更</a>
-                <a href="">话费查询</a>
-                <a href="">星级查询</a>
-                <a href="">充值中心</a>
-            </div>
-        </div>
-        <div class="bottom_list">
-            <h2>
-                <span>常见问题</span>
-            </h2>
-            <div class="listbox">
-                <a href="">忘记密码怎么办</a>
-                <a href="">话费余额查询</a>
-                <a href="">如何查询我的积分</a>
-                <a href="">充值卡如何使用</a>
-            </div>
-        </div>
-        <div class="bottom_list">
-            <h2>
-                <span>商城服务指南</span>
-            </h2>
-            <div class="listbox">
-                <a href="">购物指南</a>
-                <a href="">付款方式</a>
-                <a href="">物流配送</a>
-                <a href="">售后服务</a>
-                <a href="">个人中心</a>
-            </div>
+    <ul class="row">
+        <li>
+            <em>-</em>
+            <a href="">国资委党委召开中央企业学习交流会</a>
+            <span>2017-11-24</span>
+        </li>
+        <li>
+            <em>-</em>
+            <a href="">中央宣讲团成员肖亚庆赴福建宣讲十九大精神</a>
+            <span>2017-11-13</span>
+        </li>
+        <li>
+            <em>-</em>
+            <a href="">国资委党委召开学习贯彻党的十九大精神报告会  郝鹏主持并讲话 肖亚庆作宣讲报告</a>
+            <span>2017-11-07</span>
+        </li>
+        <li>
+            <em>-</em>
+            <a href="">学习时报发表郝鹏署名文章：在“四个伟大”中担当中央企业的责任和使命</a>
+            <span>2017-11-03</span>
+        </li>
+    </ul>
+</div>
+<!--国资动态结束-->
+<!--底部连接区开始-->
+<div class="bottom">
+    <div class="bottom_list">
+        <h2>
+            <span>服务渠道</span>
+        </h2>
+        <div class="listbox">
+            <a href="">自助终端</a>
+            <a href="">10086热线</a>
+            <a href="">实体营业厅</a>
+            <a href="">短信营业厅</a>
+            <a href="">网上营业厅</a>
+            <a href="">客户端/掌上营业厅</a>
         </div>
     </div>
-    <!--底部链接区结束-->
-    <!--页脚开始-->
-    <footer>
-        <div class="footcon">
-            <div class="hidden-xs">
-                <a href="">新闻中心</a>
-                <span>|</span>
-                <a href="">诚聘英才</a>
-                <span>|</span>
-                <a href="">采购信息</a>
-                <span>|</span>
-                <a href="">企业合作</a>
-                <span>|</span>
-                <a href="">站点导航</a>
-                <span>|</span>
-                <a href="">中国移动设计院</a>
-                <span>|</span>
-                <a href="">中国移动香港公司</a>
-                <span>|</span>
-                <a href="">政企客户分公司</a>
-                <span>|</span>
-                <a href="">数字家庭合作联盟</a>
-                <span>|</span>
-                <a href="">网站地图</a>
-                <span>|</span>
-                <a href="">友情链接</a>
-            </div>
-            <div class="hidden-xs">
-                <span>掌上营业厅：</span>
-                <a href="">wap.10086.cn</a>
-                <span> 语音自助服务：10086  短信营业厅：10086 </span>
-                <a href="">自助终端</a>
-                <a href="">营业厅</a>
-                <a href="">中国移动客户端下载</a>
-            </div>
-            <div class="xuke">Copyright©1999-2017&nbsp;&nbsp;中国移动&nbsp;&nbsp;版权所有</div>
-            <div class="row hidden-xs">
-                <div class="text1">中华人民共和国增值电信业务经营许可证&nbsp;&nbsp;  经营许可证编号：A2.B1.B2-20100001</div>
-            </div>
-            <div class="row hidden-xs">
-                <div class="kx-box">
-                    <div class="KXWZ"></div>
-                     <div class="logo-box">
-                         <p class="gov"></p>
-                         <a href="">京ICP备05002571号</a>
-                     </div>
+    <div class="bottom_list">
+        <h2>
+            <span>站点导航</span>
+        </h2>
+        <div class="listbox">
+            <a href="">MM</a>
+            <a href="">飞信</a>
+            <a href="">和包</a>
+            <a href="">咪咕阅读</a>
+            <a href="">139邮箱</a>
+            <a href="">咪咕音乐</a>
+        </div>
+    </div>
+    <div class="bottom_list">
+        <h2>
+            <span>便捷服务</span>
+        </h2>
+        <div class="listbox">
+            <a href="">套餐变更</a>
+            <a href="">话费查询</a>
+            <a href="">星级查询</a>
+            <a href="">充值中心</a>
+        </div>
+    </div>
+    <div class="bottom_list">
+        <h2>
+            <span>常见问题</span>
+        </h2>
+        <div class="listbox">
+            <a href="">忘记密码怎么办</a>
+            <a href="">话费余额查询</a>
+            <a href="">如何查询我的积分</a>
+            <a href="">充值卡如何使用</a>
+        </div>
+    </div>
+    <div class="bottom_list">
+        <h2>
+            <span>商城服务指南</span>
+        </h2>
+        <div class="listbox">
+            <a href="">购物指南</a>
+            <a href="">付款方式</a>
+            <a href="">物流配送</a>
+            <a href="">售后服务</a>
+            <a href="">个人中心</a>
+        </div>
+    </div>
+</div>
+<!--底部链接区结束-->
+<!--页脚开始-->
+<footer>
+    <div class="footcon">
+        <div class="hidden-xs">
+            <a href="">新闻中心</a>
+            <span>|</span>
+            <a href="">诚聘英才</a>
+            <span>|</span>
+            <a href="">采购信息</a>
+            <span>|</span>
+            <a href="">企业合作</a>
+            <span>|</span>
+            <a href="">站点导航</a>
+            <span>|</span>
+            <a href="">中国移动设计院</a>
+            <span>|</span>
+            <a href="">中国移动香港公司</a>
+            <span>|</span>
+            <a href="">政企客户分公司</a>
+            <span>|</span>
+            <a href="">数字家庭合作联盟</a>
+            <span>|</span>
+            <a href="">网站地图</a>
+            <span>|</span>
+            <a href="">友情链接</a>
+        </div>
+        <div class="hidden-xs">
+            <span>掌上营业厅：</span>
+            <a href="">wap.10086.cn</a>
+            <span> 语音自助服务：10086  短信营业厅：10086 </span>
+            <a href="">自助终端</a>
+            <a href="">营业厅</a>
+            <a href="">中国移动客户端下载</a>
+        </div>
+        <div class="xuke">Copyright©1999-2017&nbsp;&nbsp;中国移动&nbsp;&nbsp;版权所有</div>
+        <div class="row hidden-xs">
+            <div class="text1">中华人民共和国增值电信业务经营许可证&nbsp;&nbsp;  经营许可证编号：A2.B1.B2-20100001</div>
+        </div>
+        <div class="row hidden-xs">
+            <div class="kx-box">
+                <div class="KXWZ"></div>
+                <div class="logo-box">
+                    <p class="gov"></p>
+                    <a href="">京ICP备05002571号</a>
                 </div>
             </div>
         </div>
-    </footer>
-    <!--页脚结束-->
-    <!--左侧导航开始-->
-    <div class="menu">
-        <ul>
-            <li>
-                1F
-                <span>享优惠</span>
-            </li>
-            <li>
-                2F
-                <span>业务推荐</span>
-            </li>
-            <li>
-                3F
-                <span>手机专区</span>
-            </li>
-            <li>
-                4F
-                <span>智能硬件</span>
-            </li>
-            <li>
-                5F
-                <span>咪咕娱乐</span>
-            </li>
+    </div>
+</footer>
+<!--页脚结束-->
+<!--左侧导航开始-->
+<div class="menu" style="display: block;">
+    <ul>
+        <li>
+            1F
+            <span class="">享优惠</span>
+        </li>
+        <li>
+            2F
+            <span class="">业务推荐</span>
+        </li>
+        <li>
+            3F
+            <span class="">手机专区</span>
+        </li>
+        <li>
+            4F
+            <span class="">智能硬件</span>
+        </li>
+        <li>
+            5F
+            <span class="active">咪咕娱乐</span>
+        </li>
 
-        </ul>
-        <div class="back">
-                <span>返回顶部</span>
-        </div>
+    </ul>
+    <div class="back">
+        <span>返回顶部</span>
     </div>
-    <!--左侧导航结束-->
-    <!--右侧固定栏开始-->
-    <div class="lf_fix1">
-        <a href="">
-            <img src="img/sh.jpg" alt="">
-        </a>
-    </div>
-    <div class="lf_fix2">
-        <li>
-            <a href="" class="logo lg1"></a>
-        </li>
-        <li>
-            <a href="" class="logo lg2"></a>
-        </li>
-        <li>
-            <a href="" class="logo lg3"></a>
-        </li>
-    </div>
-    <!--右侧固定栏结束-->
+</div>
+<!--左侧导航结束-->
+<!--右侧固定栏开始-->
+<div class="lf_fix1">
+    <a href="">
+        <img src="img/sh.jpg" alt="">
+    </a>
+</div>
+<div class="lf_fix2">
+    <li>
+        <div class="show-blue">在线咨询</div>
+        <a href="" class="logo lg1"></a>
+    </li>
+    <li>
+        <div class="show-blue">常见问题</div>
+        <a href="" class="logo lg2"></a>
+    </li>
+    <li>
+        <div class="show-blue">投诉意见</div>
+        <a href="" class="logo lg3"></a>
+    </li>
+</div>
+<!--右侧固定栏结束-->
+
 </body>
 </html>
